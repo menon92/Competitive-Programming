@@ -1,3 +1,9 @@
+/**
+  * Problem : 495 - Fibonacci Freeze.java
+  * Status  : Accepted.
+  * Time take : 0.755 s
+  * Date : 13.09.15
+  * */
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -12,8 +18,8 @@ public class FibonacciFrozen {
 		int n;
 		while(input.hasNext()) 
 		{
-      	n = input.nextInt();
-      	System.out.println("The Fibonacci number for " + n + " is " +fibNumbe[n]);
+       			n = input.nextInt();
+      			System.out.println("The Fibonacci number for " + n + " is " +fibNumbe[n]);
 		}
 		
 		input.close();
