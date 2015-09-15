@@ -42,7 +42,7 @@ int main()
 		else
 			cout << "No" << endl;
 
-        s.clear();
+		s.clear();
         t.clear();
 	}
 
