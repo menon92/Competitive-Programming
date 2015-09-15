@@ -26,7 +26,7 @@ int main()
 		for(i = 0, start = 0; i < sslength; i++)
 		{
 			isnotinside = true;
-			for(j = start; j < tslength && isnotinside; j++)
+			for(j = start; j < tslength && isnotinside; j++) // 
 			{
 				if(s[i] == t[j])
 				{
