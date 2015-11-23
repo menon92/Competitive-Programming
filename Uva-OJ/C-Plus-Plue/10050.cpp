@@ -35,7 +35,7 @@ int main()
 					wdays[j] = true;
 				}
 				else
-           wdays[j] = false; // indicate hartal days from working dasy.
+        			 wdays[j] = false; // indicate hartal days from working dasy.
 			}
 		}
 
@@ -43,11 +43,10 @@ int main()
 		// count hartal days. skip friday && saturday
 		for(int i = 1; i <= nDays; i++) {
 			if(wdays[i] == false) {
-           totlaHartalDay++;
+           		totlaHartalDay++;
 			}
 		}
 		cout << totlaHartalDay << endl;
-
 	}
 
 	return 0;
