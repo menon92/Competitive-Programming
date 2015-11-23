@@ -35,7 +35,7 @@ int main()
 					wdays[j] = true;
 				}
 				else
-        			 wdays[j] = false; // indicate hartal days from working dasy.
+        			wdays[j] = false; // indicate hartal days from working dasy.
 			}
 		}
 
