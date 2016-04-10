@@ -32,10 +32,10 @@ void dfs(int p)
 
 int main()
 {
-	freopen("280.txt", "r+", stdin);
+    freopen("280.txt", "r+", stdin);
 
-	int n, x, y;
-	int vertices, starting_node;
+    int n, x, y;
+    int vertices, starting_node;
 
     while(cin >> n && n != 0)
     {
