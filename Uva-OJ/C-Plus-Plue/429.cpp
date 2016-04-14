@@ -57,7 +57,7 @@ int main()
 
         string startingWord, endingWord;
         string line;
-        int moves;
+        int moves; 
 
         getchar(); // this is for skipe a space from input.
         while(getline(cin, line) && line != "")
