@@ -79,26 +79,26 @@ int main()
 //    cout << mp["jv"][2] << endl;
 //----------------------------------
 
-    int edge;
+        freopen("762.txt", "r+", stdin);
+        
+        int edge;
 	bool flag = false;
-
-    //freopen("762.txt", "r+", stdin);
 
 	while(cin >> edge)
 	{
-        map <string, vector<string> > graph;
-        string firstCity, secondCity;
-        string sourceCity, destinationCity;
+            map <string, vector<string> > graph;
+            string firstCity, secondCity;
+            string sourceCity, destinationCity;
 
 		for(int i = 0; i < edge; i++)
 		{
-			cin >> firstCity >> secondCity;
+		    cin >> firstCity >> secondCity;
 
-			graph[firstCity].push_back(secondCity);
-			graph[secondCity].push_back(firstCity);
+		    graph[firstCity].push_back(secondCity);
+		    graph[secondCity].push_back(firstCity);
 
-			visited[firstCity] = -1;
-			visited[secondCity] = -1;
+		    visited[firstCity] = -1;
+		    visited[secondCity] = -1;
 
 		}
 		cin >> sourceCity >> destinationCity;
@@ -107,14 +107,14 @@ int main()
 
 		// skipe the last new line;
 		if(flag)
-            cout << endl;
-        flag = true;
+                cout << endl;
+                flag = true;
 
 		if(bfs(sourceCity, destinationCity, graph) != -1) {
-			printPath(destinationCity, sourceCity);
+		    printPath(destinationCity, sourceCity);
 		}
 		else
-			cout << "No route" << endl;
+		    cout << "No route" << endl;
 	}
 
 	return 0;
