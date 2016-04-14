@@ -12,10 +12,10 @@ using namespace std;
 
 int main()
 {
+        freopen("11222.txt", "r+", stdin);
+	
 	int tc, s;
 	int ff[1000 + 5], sf[1000 + 5], tf[1000 + 5];
-
-	//freopen("11222.txt", "r+", stdin);
 
 	scanf("%d", &tc);
 	for(int i = 0; i < tc; i++)
