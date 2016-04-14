@@ -12,7 +12,7 @@ bool bfs(int src)
 	queue <int> Q;
 	int visited[200 + 5];
 
-    memset(visited, -1, sizeof(visited));
+        memset(visited, -1, sizeof(visited));
 
 	Q.push(src); // hare 0 is src node.
 	visited[src] = 0;
@@ -20,7 +20,7 @@ bool bfs(int src)
 	while(!Q.empty())
 	{
 		int parent = Q.front();
-        int vsize = graph[parent].size();
+                int vsize = graph[parent].size();
 		for(int i = 0; i < vsize; i++)
 		{
 			int child = graph[parent][i];
@@ -30,7 +30,7 @@ bool bfs(int src)
 				// 0 is to colour1 and 1 is to colour2;
 				// if parent node is 0 then child node must be 1;
 				// otherwise it is not bicolour;
-                Q.push(child);
+                                Q.push(child);
 				if(visited[parent] == 0)
 				{
 					visited[child] = 1;
@@ -81,5 +81,5 @@ int main()
 
 	}
 
-	return 0;
+	return 0; 
 }
