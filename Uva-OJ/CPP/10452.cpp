@@ -61,7 +61,7 @@ void find_path_using_DFS(int row, int col, string direction)
 
 	if(map_of_path[row][col] != 'I' && map_of_path[row][col] != 'E' && map_of_path[row][col] != 'H' &&
 	   map_of_path[row][col] != 'O' && map_of_path[row][col] != 'V' && map_of_path[row][col] != 'A' &&
-	   map_of_path[row][col] != '@' && map_of_path[row][col] != '#') {
+	   map_of_path[row][col] != '@' && map_of_path[row][col] != '#') { 
 	      // cout << "not cobblestone" << endl;
 		return; // this is not a cobblestone . so back :)
 	}
