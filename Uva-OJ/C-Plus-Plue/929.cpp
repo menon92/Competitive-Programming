@@ -100,7 +100,7 @@ int dijkstra_find_min_cost(int srow, int scol, int erow, int ecol)
 
 int main()
 {
-    //freopen("929.txt", "r+", stdin);
+    freopen("929.txt", "r+", stdin);
 
     int t_case, row, col, cost;
 
