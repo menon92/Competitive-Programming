@@ -13,16 +13,16 @@ int const sz = 12 + 3;
 
 int main(int argc, char const *argv[])
 {
+	freopen("11608.txt", "r+", stdin);
+	
 	int ready_problem, tc;
 	int ready_problems[sz], need_problem[sz];
-
-	//freopen("11608.txt", "r+", stdin);
 
 	tc = 1;
 	while(scanf("%d", &ready_problem) && ready_problem >= 0)
 	{
 		for(int i = 0; i < 12; i++) {
-			scanf("%d", &ready_problems[i]);
+			scanf("%d", &ready_problems[i]); 
 		}
 
 		for(int i = 0; i < 12; i++) {
