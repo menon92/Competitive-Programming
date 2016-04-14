@@ -39,7 +39,7 @@ int make_friend(int f1, int f2)
 
 int main()
 {
-    //freopen("459.txt", "r+", stdin);
+    freopen("459.txt", "r+", stdin);
 
     int tcase;
     string s;
