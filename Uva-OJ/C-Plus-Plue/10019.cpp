@@ -77,5 +77,5 @@ int countBitOfHexDicimalNumber(int dec)
         }
         dec = dec / 10;
     }
-    return cnt;
+    return cnt; 
 }
