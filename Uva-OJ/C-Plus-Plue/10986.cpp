@@ -64,7 +64,7 @@ int dijkstra(int src, int distination, int nServer)
 			{
 				d[v.server] = v.cost;
 
-				pq.push(v);
+				pq.push(v); 
 			}
 		}
 	}
