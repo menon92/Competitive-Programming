@@ -12,10 +12,10 @@ using namespace std;
 
 int main()
 {
+	freopen("11192.txt", "r+", stdin);
+	
 	int g;
 	char input[100 + 5];
-
-	//freopen("11192.txt", "r+", stdin);
 
 	while(scanf("%d", &g) && g != 0)
 	{
@@ -45,7 +45,7 @@ int main()
 
 		// print reversed string
 
-		printf("%s\n", newString);
+		printf("%s\n", newString); 
 	}
 
 	return 0;
