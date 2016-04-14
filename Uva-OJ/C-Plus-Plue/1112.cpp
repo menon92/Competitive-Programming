@@ -79,7 +79,7 @@ int dijkstra_find_shortest_path(int src, int size, int max_time_limit)
 
 int main()
 {
-   // freopen("1112.txt", "r+", stdin);
+    freopen("1112.txt", "r+", stdin);
 
     int tcase, number_of_cells, number_of_exit_cell, max_time_limit;
     int maze_connections, x, y, time;
