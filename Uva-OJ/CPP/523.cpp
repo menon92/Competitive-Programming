@@ -82,7 +82,7 @@ int main()
         string first_line;
         istringstream iss;
 
-        if(flag)
+        if(flag) // skip last extra new line
         {
             printf("\n");
         }
@@ -147,7 +147,7 @@ int main()
             iss >> src;
             iss >> destination;
 
-            if(flag2)
+            if(flag2) // skip last extra new line;
             {
                 printf("\n");
             }
