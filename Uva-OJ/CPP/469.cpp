@@ -25,7 +25,7 @@ void dfs(int r, int c, char c1, char c2)
     if(r < 0 || c < 0 || r >= row || c >= col) {
         return;
     }
-    if(grid[r][c] != c1) {
+    if(grid[r][c] != c1) 
         return;
     }
 
